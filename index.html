@@ -5,7 +5,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d1f54d8dbf.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Projekt_02</title>
   </head>
-  <body></body>
+  <body>
+    <!-- NAVIGATION -->
+
+    <nav class="navigation">
+      <div class="container navigation-content">
+        <p class="company-logo">nazwa firmy</p>
+        <ul class="nav-items-list">
+          <li class="nav-item">
+            <a href="#about-us" class="nav-item">o nas</a>
+          </li>
+          <li class="nav-item">
+            <a href="#our-product" class="nav-item">oferta</a>
+          </li>
+          <li class="nav-item nav-item-disabled">kontakt</li>
+        </ul>
+      </div>
+    </nav>
+    <!-- HEADER -->
+
+    <header class="main-header">
+      <div class="container main-header-content">
+        <h1 class="main-header-heading">
+          Nasza firma oferuje najwyższej jakości produkty.
+        </h1>
+        <h2 class="h2-style">Nie wierz nam na słowo - sprawdź</h2>
+        <a href="#our-product" class="button-style">oferta</a>
+      </div>
+      <div class="main-header-overlay"></div>
+    </header>
+
+    <!-- LIST SECTION -->
+
+    <section id="about-us" class="section our-crew-section">
+      <div class="container our-crew-section-content">
+        <h2 class="section-heading-h2">Nasi specjaliści</h2>
+        <ul class="our-crew-list">
+          <li class="our-crew-list-element">
+            <div class="our-crew-list-element-image our-crew-image-1"></div>
+
+            <div class="our-crew-list-element-content">
+              <h4 class="tile-heading">Tytus Rozrabiaka [IT - wsparcie]</h4>
+              <p class="tile-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                in dolore dicta modi aspernatur odio ea veniam, at eius ut quis,
+                molestiae, deleniti consequuntur dolor. Odit laudantium corrupti
+                impedit quaerat.
+              </p>
+            </div>
+          </li>
+          <li class="our-crew-list-element">
+            <div class="our-crew-list-element-image our-crew-image-2"></div>
+
+            <div class="our-crew-list-element-content">
+              <h4 class="tile-heading">Tytus Rozrabiaka [IT - wsparcie]</h4>
+              <p class="tile-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                in dolore dicta modi aspernatur odio ea veniam, at eius ut quis,
+                molestiae, deleniti consequuntur dolor. Odit laudantium corrupti
+                impedit quaerat.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!--BOX SECTION-->
+
+    <section id="our-product" class="section box-section-style">
+      <div class="container our-services-content">
+        <h3 class="box-header-style">Czym zajmuje się nasz firma?</h3>
+        <div class="box-style">
+          <div class="box new-service">
+            Usługa 1 <span class="new-product-style">(nowość)</span>
+            <div class="new-service-dot"></div>
+          </div>
+          <div class="box">Usługa 2</div>
+          <div class="box">Usługa 3</div>
+          <div class="box">Usługa 4</div>
+          <div class="box">Usługa 5</div>
+          <div class="box">Usługa 6</div>
+        </div>
+      </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="footer-style">
+      <div class="container footer-style">
+        <div class="footer-info">
+          Nazwa firmy - wszelkie prawa zastrzeżone, 2023
+        </div>
+        <div class="footer-logo-style">
+          <i class="icon fa-brands fa-instagram"></i>
+          <i class="icon fa-brands fa-square-facebook"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
