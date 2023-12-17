@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+
+  .company-logo {
+    margin-left: 14px;
+  }
+
+  .main-header-content {
+    margin-left: 14px;
+  }
+
+  .nav-items-list {
+    visibility: hidden;
+  }
+
+  .main-header-heading {
+    width: 359px;
+
+    line-height: 42px;
+  }
+  .button-style {
+    pointer-events: none;
+  }
+
+  .section-heading-h2 {
+    display: flex;
+    align-self: center;
+  }
+
+  .our-crew-list-element {
+    display: grid;
+  }
+
+  .our-crew-list-element-image {
+    justify-self: center;
+  }
+
+  .our-crew-list-element-content {
+    margin: 14px;
+  }
+
+  .our-services-content {
+    display: flex;
+    justify-self: center;
+  }
+
+  .box-header-style {
+    display: flex;
+  }
+  .box-style {
+    display: flex;
+    flex-direction: column;
+  }
+}

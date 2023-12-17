@@ -123,6 +123,7 @@ body {
   color: white;
   background-color: transparent;
   border: 3px solid white;
+  text-decoration: none;
 
   font-size: 18px;
   font-weight: 700;
@@ -205,7 +206,7 @@ body {
   gap: 60px;
 }
 
-.our-crew-list-element:nth-of-type(even) {
+/*.our-crew-list-element:nth-of-type(even) {
   flex-direction: row-reverse;
 }
 
@@ -216,7 +217,7 @@ body {
 .our-crew-list-element:nth-of-type(even) .tile-description {
   text-align: right;
 }
-
+*/
 .our-crew-list-element-content {
   display: flex;
   flex-direction: column;
