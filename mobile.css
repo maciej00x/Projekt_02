@@ -20,11 +20,8 @@
 
     line-height: 42px;
   }
-  .button-style {
-    pointer-events: none;
-  }
 
-  .section-heading-h2 {
+  .button-style:hover:none .section-heading-h2 {
     display: flex;
     align-self: center;
   }
@@ -52,5 +49,10 @@
   .box-style {
     display: flex;
     flex-direction: column;
+  }
+
+  .box {
+    width: 330px;
+    height: 330px;
   }
 }
