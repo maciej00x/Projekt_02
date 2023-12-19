@@ -17,11 +17,14 @@
 
   .main-header-heading {
     width: 359px;
-
     line-height: 42px;
   }
 
-  .button-style:hover:none .section-heading-h2 {
+  .button-style {
+    pointer-events: none;
+  }
+
+  .section-heading-h2 {
     display: flex;
     align-self: center;
   }
@@ -45,6 +48,7 @@
 
   .box-header-style {
     display: flex;
+    align-self: auto;
   }
   .box-style {
     display: flex;
@@ -54,5 +58,17 @@
   .box {
     width: 330px;
     height: 330px;
+
+    pointer-events: none;
   }
+
+  .footer-style {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-logo-style {
+    font-size: 40px;
+  }
+
 }
