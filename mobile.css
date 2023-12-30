@@ -137,13 +137,13 @@ body {
   transition: all 1s;
 }
 
-@media (hover: hover) {
+/*@media (hover: hover) {
   .button-style:hover {
     background-color: #ffffff;
     color: black;
     pointer-events: none;
   }
-}
+}*/
 
 .main-header-overlay {
   position: absolute;
@@ -277,6 +277,8 @@ body {
   flex-direction: column;
   grid-template-columns: 200px 200px 200px;
   gap: 60px;
+
+  cursor: pointer;
 }
 
 .box {
@@ -295,6 +297,8 @@ body {
   font-size: 24px;
 
   background-color: #f1f1f1;
+
+  
 
   transition: transform 0.5s ease;
 }
