@@ -363,8 +363,9 @@ body {
 
 @media (max-width: 374px) {
   .box {
-    width: calc(100% - 1px);
+    width: calc(100% - 0px);
     height: auto;
     padding: 10px;
   }
 }
+
