@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-  width: 100%;
+  width: 94%;
 
   margin: 0 auto;
 }
@@ -50,10 +50,8 @@ body {
 .nav-items-list {
   height: 100%;
 
-  display: flex;
+  display: none;
   gap: 46px;
-
-  visibility: hidden;
 }
 
 .nav-item {
@@ -90,8 +88,6 @@ body {
 }
 
 .main-header-heading {
-  width: 359px;
-
   line-height: 42px;
 }
 
@@ -255,6 +251,7 @@ body {
 }
 
 .our-services-content {
+  width: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -297,8 +294,6 @@ body {
   font-size: 24px;
 
   background-color: #f1f1f1;
-
-  
 
   transition: transform 0.5s ease;
 }
@@ -349,7 +344,7 @@ body {
 
 .footer-info {
   text-align: left;
-  padding: 25px;
+  padding: 12px;
 
   font-size: 18px;
   font-weight: 700;
@@ -359,9 +354,17 @@ body {
 
 .footer-logo-style {
   display: flex;
-  padding: 25px;
+  padding: 12px;
   gap: 20px;
 
   font-size: 40px;
   color: #ffffff;
+}
+
+@media (max-width: 374px) {
+  .box {
+    width: calc(100% - 1px);
+    height: auto;
+    padding: 10px;
+  }
 }
