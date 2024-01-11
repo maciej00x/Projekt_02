@@ -17,11 +17,26 @@
   .our-crew-list-element:nth-of-type(even) .tile-description {
     text-align: right;
   }
-}
 
-.box-style {
-  display: flex;
-  justify-content: space-between;
+  .box-header-style {
+    align-self: flex-start;
+  }
+
+  .box-style {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+  }
+
+  .box {
+    width: 200px;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 25px;
+  }
 }
 
 @media (hover: hover) {
