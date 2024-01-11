@@ -5,4 +5,29 @@
     display: flex;
     gap: 46px;
   }
+
+  .our-crew-list-element:nth-of-type(even) {
+    flex-direction: row-reverse;
+  }
+
+  .our-crew-list-element:nth-of-type(even) .our-crew-list-element-content {
+    align-items: flex-end;
+  }
+
+  .our-crew-list-element:nth-of-type(even) .tile-description {
+    text-align: right;
+  }
+}
+
+.box-style {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (hover: hover) {
+  .button-style:hover {
+    background-color: #ffffff;
+    color: black;
+    pointer-events: none;
+  }
 }
