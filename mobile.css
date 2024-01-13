@@ -205,7 +205,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin: 14px;
 
   font-size: 18px;
 }
@@ -231,7 +230,6 @@ body {
 }
 
 .our-services-content {
-  width: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -323,8 +321,7 @@ body {
 }
 
 .footer-info {
-  text-align: left;
-  padding: 12px;
+  text-align: center;
 
   font-size: 18px;
   font-weight: 700;
