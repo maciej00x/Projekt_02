@@ -1,10 +1,15 @@
-@media (min-width: 1024px) {
+@media (min-width: 576px) {
+  
+  /* NAVIGATION */
+
   .nav-items-list {
     height: 100%;
 
     display: flex;
     gap: 46px;
   }
+
+  /* LIST SECTION */
 
   .our-crew-list-element:nth-of-type(even) {
     flex-direction: row-reverse;
@@ -18,13 +23,17 @@
     text-align: right;
   }
 
+  /* BOX SECTION */
+
   .box-header-style {
     align-self: flex-start;
   }
 
   .box-style {
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
   }
 
   .box {
