@@ -3,23 +3,14 @@
 
   .container {
     width: 960px;
-  }
 
-  .nav-items-list {
-    display: flex;
+    margin: 0 auto;
   }
 
   /* HEADER */
 
   .main-header-heading {
     width: 560px;
-  }
-
-  @media (hover: hover) {
-    .button-style:hover {
-      background-color: #ffffff;
-      color: black;
-    }
   }
 
   /* LIST SECTION */
@@ -46,21 +37,17 @@
 
   /* BOX SECTION */
 
-  .box-header-style {
-    align-self: flex-start;
-  }
-
-  .box-style {
-    display: grid;
-  }
-
   .box {
-    width: 200px;
-    height: 200px;
+    transition: transform 0.5s ease;
+    pointer-events: all;
   }
 
   .box:hover {
     transform: scale(1.05);
+  }
+
+  .box-style {
+    display: grid;
   }
 
   /* FOOTER */
@@ -70,7 +57,6 @@
   }
 
   .footer-info {
-    text-align: left;
     padding: 25px;
   }
 
